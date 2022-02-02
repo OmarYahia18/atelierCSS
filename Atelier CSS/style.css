@@ -1,0 +1,120 @@
+header{
+    background-image: url(img/top_bg.png);
+    width: 100vw;
+    height: 5vh;
+    margin: -8px 0 0 -8px;
+}
+
+#top_image{
+    background-image: url(img/flash_img.png);
+    width: 70vw;
+    height: 40vh;
+    margin: auto;
+    object-fit: cover;
+    background-repeat: round;
+}
+
+#top_image > img {
+    height: 40%;
+    margin: 0 -1px;
+}
+
+#top_image  nav  {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 15%;
+    background-color: brown;
+    position: relative;
+    margin-top:18vh;
+}
+
+#top_image  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+#top_image  nav ul li{
+    width:100%;
+    text-align: center;
+    border:solid 1px black;
+    margin:0;
+    padding: 2% 0;
+    text-transform: uppercase;
+    color: white;
+    font-family: fantasy;
+}
+
+#top_image  nav ul li:hover{
+    background-image: url(img/rings.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+article{
+    width: 70vw;
+    margin:  auto ;
+    padding: 0;
+}
+
+span{
+    float: right;
+    margin:  2px ;
+}
+
+span img{
+    width: 10vw;
+}
+
+section{
+    width: 50%;
+    float: left;
+    margin: 0; 
+}
+
+h1{
+    color: red;
+    font-size: 1.5rem;
+}
+
+h1, h4{
+font-family: monospace;
+}
+
+#clear{
+    clear:both;
+}
+
+#bottom{
+    text-align: center;
+}
+
+#bottom img{
+    width: 12vw;
+    height: 10vh;
+    margin: 2px;
+}
+
+#bottom p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+footer{
+    background-image: url(img/foot_bg.png);
+    width: 100vw;
+    height: 10vh;
+    margin: 0 0 -8px -8px;
+}
